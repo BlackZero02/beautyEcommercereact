@@ -1,0 +1,196 @@
+/* Pink Border */
+.pink-border {
+  background-color: #ffc0cb;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  color: black;
+}
+
+.navItems {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.navItems li {
+  color: black;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navItems li:hover {
+  color: pink;
+}
+
+.navButton {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+/* Main Section with Image */
+.main-section {
+  position: relative;
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('/11.jpg');
+}
+
+.overlay {
+  padding-top: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:#ffffffce;
+  padding: 100px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 2rem;
+  color: #000000;
+  padding-bottom: 30px;
+}
+
+.overlay button {
+  background-color: pink;
+  border: 1px;
+  padding: 10px 60px;
+  padding-top: 10px;
+  color: rgb(250, 82, 76);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Popular Posts Section */
+.popularPosts {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f7f7f7;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.popularPosts h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.productList {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: auto;
+}
+
+.productItem {
+  width: 430px;
+  text-align: center;
+  padding: 70px;
+  border: 3px dashed rgba(255, 178, 173, 0.74); /* Dashed border around the product */
+  border-radius: 40px; /* Rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.productItem img {
+  width: 300px;
+  height: 270px;
+  border-radius: 10px;
+}
+
+.productItem h3 {
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+
+.productItem p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.productItem button {
+  background-color: rgb(255, 157, 157);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.productItem:hover {
+  transform: translateY(-5px); /* Hover effect */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
+.readMoreButton {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.productCard {
+  width: 380px; /* Set a fixed width for each card */
+  padding: 10px; /* Add padding to create space around the image */
+  border: 3px solid #e3b6c9; /* Border around the image */
+  border-radius: 10px; /* Rounded corners for the border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for a better look */
+  transition: transform 0.3s ease; /* Optional: Add transition effect */
+}
+
+
+.productCard:hover {
+  transform: scale(1.05); /* Optional: Scale up the card on hover */
+}
+
+/**/
+.imageSection {
+  display: flex; /* Arrange images in a horizontal row */
+  justify-content: center; /* Center images horizontally */
+  gap: 10px; /* Add spacing between images */
+}
+
+.imageSection img {
+  width: auto; /* Set a fixed width for all images */
+  height: auto; /* Set a fixed height for all images */
+   /* Maintain image proportions and fit within the size */
+}
+
+
+
+
+
+
+
+
+
